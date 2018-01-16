@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "junction";
+    src: url("../fonts/junction.woff2") format("woff");
+}
+
+body {
+    font-family: "junction", Arial, sans-serif;
+    background-color: #cfcfcf;
+}
+
+#title {
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#menu {
+    margin-top: 4%;
+    margin-left: 2%;
+    position: absolute;
+    background-color: #820000;
+}
+
+.float-center {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 25%;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#buttons {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 19%;
+}
+
+.choice {
+    width: 40%;
+    height: 10%;
+    margin-top: 8%;
+    margin-right: 2%;
+}
+
+#logo img {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    opacity: 0.09;
+}
+
+.hover {
+    border-radius: 5%;
+}
+
+.hover :hover {
+    text-decoration: underline;
+    font-style: italic;
+    color: #dddddd;
+}
+
+@media (min-width: 643px) and (max-width: 962px) {
+    .float-center {
+        margin-top: 20%;
+    }
+
+    #buttons {
+        margin-top: 35%;
+    }
+
+    .choice {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 963px) and (max-width: 1118px) {
+
+    .float-center {
+        margin-top: 20%;
+    }
+
+    #buttons {
+        margin-top: 30%;
+    }
+}
+
+@media (min-width: 1119px) and (max-width: 1279px) {
+    #menu {
+        margin-left: 10%;
+    }
+
+    #title {
+        margin-right: 10%;
+    }
+
+    .float-center {
+        margin-top: 18%;
+        margin-left: 32%;
+    }
+
+    #buttons {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    #menu {
+        margin-top: 1%;
+    }
+
+    #title {
+        margin-top: 2%;
+    }
+
+    #buttons {
+        margin-left: 12%;
+        margin-top: 11%;
+    }
+
+    .choice {
+        width: 20%;
+    }
+
+    .float-center {
+        margin-top: 10%;
+        margin-left: 32%;
+    }
+}
